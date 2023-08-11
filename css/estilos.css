@@ -1,0 +1,405 @@
+@charset "UTF-8";
+.imagensegind h3, .imagenmatcons h3 {
+  display: block;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #272727;
+  font-size: 18px; }
+
+.textoseguridadind, .textomateriales {
+  font-size: 18px;
+  margin: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* Título General */
+main h1 {
+  color: #c10707;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 20px;
+  font-size: 25px; }
+
+/* Acerca de Nosotros */
+.contenedoracerca {
+  display: flex;
+  margin: 50px; }
+
+.textoacerca {
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  color: #2c2b2b; }
+  .textoacerca p {
+    padding: 20px; }
+
+.imagenacercade img {
+  width: 380px;
+  height: 320px;
+  padding: 20px; }
+
+/* Página Contáctenos */
+.containergeneral {
+  padding-top: none; }
+
+.container-form {
+  margin: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+  margin-top: 70px;
+  text-align: justify; }
+  .container-form p {
+    font-size: 17px;
+    line-height: 1.6;
+    margin-top: 30px; }
+  .container-form a {
+    font-size: 17px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    color: black;
+    font-weight: 700; }
+    .container-form a i {
+      color: #e40505;
+      margin-right: 10px; }
+
+.container-form form .campo, textarea {
+  width: 100%;
+  padding: 15px 10px;
+  font-size: 15px;
+  border: 1px solid #dbdbdb;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  outline: 0px; }
+
+.container-form .btn-enviar {
+  padding: 15px;
+  font-size: 16px;
+  border: none;
+  outline: 0px;
+  background: #e40505;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 300ms ease; }
+  .container-form .btn-enviar:hover {
+    background: #ff8b6e; }
+
+.cuadrocontacto {
+  margin-top: 30px; }
+
+/* Footer Páginas */
+.footer {
+  background: black;
+  background: linear-gradient(90deg, black 0%, #b60606 41%, #650202 100%); }
+
+.footer-center_caja p {
+  font-size: 17px; }
+
+.footer-center_caja h5 {
+  font-size: 18px; }
+
+.footer-center_caja a {
+  font-size: 17px;
+  color: white;
+  text-decoration: none; }
+
+.footer-contacto {
+  margin-top: 100px; }
+
+/* Header */
+header {
+  background: url(../Imagenes/Fondo-Nav-Bar.jpg) no-repeat;
+  background-size: cover;
+  width: 100%; }
+
+.logo img {
+  height: 150px;
+  width: 160px;
+  padding: 5px; }
+
+.nav-link {
+  color: white;
+  text-decoration: solid;
+  font-size: 17px;
+  white-space: pre-wrap !important;
+  /* Evita el salto de línea */
+  overflow: hidden;
+  /* Oculta el texto excedente */
+  text-overflow: ellipsis;
+  /* Muestra puntos suspensivos (...) */ }
+  .nav-link:hover {
+    color: #343434; }
+
+.navbar-toggler {
+  background-color: #be7676f5;
+  border: var(--bs-border-width) solid rgba(238, 131, 131, 0.327);
+  margin-right: 20px; }
+
+.navbar-nav {
+  padding-left: 20px; }
+
+/* Inicio - Index */
+.seccion-textoppal {
+  background-color: #020202f5;
+  height: 250px; }
+
+.contenedorinicio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; }
+  .contenedorinicio p {
+    color: white;
+    justify-content: center;
+    font-size: 25px;
+    margin-top: 50px; }
+  .contenedorinicio h3 {
+    color: #f56363;
+    font-size: 20px; }
+
+/* Materiales de Construcción & Seguridad Ind.*/
+.contenedorprincipal {
+  padding-top: 30px;
+  padding-bottom: 100px; }
+
+.contenedor {
+  max-width: 1300px;
+  margin: auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0px 6px 16px 0px rgba(27, 91, 100, 0.25); }
+
+.contenedorfotos {
+  display: flex;
+  justify-content: space-between; }
+
+.imagensegind img {
+  width: 380px;
+  height: 320px;
+  padding: 20px; }
+
+.imagenmatcons img {
+  width: 380px;
+  height: 320px;
+  padding: 20px; }
+
+/* MEDIA QUERIES */
+@media (min-width: 1280px) {
+  .navbar-toggler {
+    margin-right: 30vw; } }
+
+@media screen and (min-width: 700px) and (max-width: 1279px) {
+  /* Header */
+  header {
+    flex-direction: column; }
+  nav {
+    padding: 10px 0px; }
+  .navbar-toggler {
+    margin-right: 10vw; }
+  /* Footer */
+  .footer-center_caja {
+    font-size: 15px; }
+  .footer-center_caja h5 {
+    font-size: 15px; }
+  .footer-center_caja p {
+    font-size: 15px; }
+  .footer a {
+    font-size: 15px; }
+  /* Inicio */
+  .seccion-textoppal {
+    height: 230px; }
+  .seccion-textoppal p {
+    font-size: 18px; }
+  .seccion-textoppal h3 {
+    font-size: 17px;
+    margin: 15px; }
+  /* Acerca de Nosotros */
+  .contenedoracerca {
+    display: grid; }
+  .textoacerca {
+    font-size: 16px;
+    text-align: justify;
+    width: 100%; }
+  .imagenacercade {
+    display: flex;
+    justify-content: center; }
+  .imagenacercade img {
+    width: 70%; }
+  /* Materiales & Seguridad */
+  .textomateriales {
+    font-size: 16px; }
+  .textoseguridadind {
+    font-size: 16px; }
+  .contenedorprincipal {
+    display: grid;
+    place-content: center; }
+  .contenedorfotos {
+    flex-direction: column; }
+  .contenedorfotos h3 {
+    font-size: 14px; }
+  /* Contáctenos */
+  .containergeneral {
+    padding-top: none; }
+  .container-form {
+    margin: 20px; }
+  .container-form p {
+    font-size: 15px; }
+  .container-form a {
+    font-size: 14px; }
+  .container-form form .campo, textarea {
+    width: 100%;
+    font-size: 14px; }
+  .container-form .btn-enviar {
+    font-size: 14px; } }
+
+@media screen and (min-width: 550px) and (max-width: 699px) {
+  /* Header */
+  header {
+    flex-direction: column; }
+  nav {
+    padding: 10px 0px; }
+  .navbar-toggler {
+    margin-right: 5vw; }
+  /* Footer */
+  .footer-center_caja {
+    font-size: 13px; }
+  .footer-center_caja h5 {
+    font-size: 13px; }
+  .footer-center_caja p {
+    font-size: 13px; }
+  .footer-center_caja a {
+    font-size: 13px; }
+  /* Inicio */
+  .seccion-textoppal {
+    height: 200px; }
+  .seccion-textoppal p {
+    font-size: 17px; }
+  .seccion-textoppal h3 {
+    font-size: 15px;
+    margin: 15px; }
+  /* Acerca de Nosotros */
+  .contenedoracerca {
+    display: grid; }
+  .textoacerca {
+    font-size: 15px;
+    text-align: justify;
+    width: 100%; }
+  .imagenacercade {
+    display: flex;
+    justify-content: center; }
+  .imagenacercade img {
+    width: 70%; }
+  /* Materiales & Seguridad */
+  .textomateriales {
+    font-size: 15px; }
+  .textoseguridadind {
+    font-size: 15px; }
+  .contenedorprincipal {
+    display: grid;
+    place-content: center; }
+  .contenedorfotos {
+    flex-direction: column; }
+  .contenedorfotos h3 {
+    font-size: 13px; }
+  /* Contáctenos */
+  .containergeneral {
+    padding-top: none; }
+  .container-form {
+    margin: 20px; }
+  .container-form p {
+    font-size: 14px; }
+  .container-form a {
+    font-size: 13px; }
+  .container-form form .campo, textarea {
+    width: 100%;
+    font-size: 13px; }
+  .container-form .btn-enviar {
+    font-size: 13px; } }
+
+@media screen and (min-width: 320px) and (max-width: 549px) {
+  /* Header */
+  header {
+    flex-direction: column; }
+  nav {
+    padding: 10px 0px; }
+  .navbar-toggler {
+    margin-right: 5vw; }
+  /* Footer */
+  .footer-center_caja {
+    font-size: 11px; }
+  .footer-center_caja h5 {
+    font-size: 11px; }
+  .footer-center_caja p {
+    font-size: 11px; }
+  .footer a {
+    font-size: 11px; }
+  /* Inicio */
+  .seccion-textoppal {
+    height: 180px; }
+  .seccion-textoppal p {
+    font-size: 13px; }
+  .seccion-textoppal h3 {
+    font-size: 11px;
+    margin: 15px; }
+  /* Acerca de Nosotros */
+  .contenedoracerca {
+    display: grid; }
+  .textoacerca {
+    font-size: 13px;
+    text-align: justify;
+    width: 100%; }
+  .textoacerca p {
+    padding: 0px; }
+  .imagenacercade {
+    display: flex;
+    justify-content: center; }
+  .imagenacercade img {
+    width: 95%;
+    height: 100%;
+    padding: 0px; }
+  /* Materiales & Seguridad */
+  .textomateriales {
+    font-size: 13px; }
+  .textoseguridadind {
+    font-size: 13px; }
+  .contenedor {
+    height: 100%;
+    width: 85%;
+    padding-bottom: 40px; }
+  .contenedorfotos {
+    flex-direction: column; }
+  .contenedorfotos h3 {
+    font-size: 10px; }
+  .imagenasegind {
+    flex-direction: column; }
+  .imagensegind img {
+    width: 100%;
+    height: 80%; }
+  .imagenmatcons {
+    flex-direction: column; }
+  .imagenmatcons img {
+    width: 100%;
+    height: 95%; }
+  /* Contáctenos */
+  .containergeneral {
+    padding-top: none; }
+  .container-form {
+    margin: 20px;
+    display: block; }
+  .container-form p {
+    font-size: 13px; }
+  .container-form a {
+    font-size: 13px; }
+  .container-form form .campo, textarea {
+    width: 95%;
+    font-size: 11px; }
+  .container-form .btn-enviar {
+    font-size: 13px; } }

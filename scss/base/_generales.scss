@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Título General */
+main{
+    h1{
+        color: $color-primary;
+        text-align: $text-align;
+        font-family: $font-family;
+        margin-top: $margin-top;
+        font-size: $font-size;
+    }
+}

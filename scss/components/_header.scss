@@ -1,0 +1,34 @@
+/* Header */
+header{
+    background: url(../Imagenes/Fondo-Nav-Bar.jpg)no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.logo img{
+    height: 150px;
+    width: 160px;
+    padding: 5px;
+}
+
+.nav-link {
+    color: rgb(255, 255, 255);
+    text-decoration: solid;
+    font-size: 17px;
+    white-space: pre-wrap !important; /* Evita el salto de línea */
+    overflow: hidden; /* Oculta el texto excedente */
+    text-overflow: ellipsis; /* Muestra puntos suspensivos (...) */
+    &:hover{
+        color: rgb(52, 52, 52);
+    }
+}
+
+.navbar-toggler{
+    background-color: #be7676f5;
+    border: var(--bs-border-width) solid rgba(238, 131, 131, 0.327);
+    margin-right: 20px;
+}
+
+.navbar-nav{
+    padding-left: 20px;
+}
