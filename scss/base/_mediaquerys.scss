@@ -1,11 +1,23 @@
 /* MEDIA QUERIES */
-@media (min-width: 1280px) {
+@media (min-width: 1200px) {
 .navbar-toggler {
     margin-right: 30vw;
 }
+/* Inicio */
+.seccion-textoppal h3{
+    margin-top: 45px;  
+}
+/* Materiales & Seguridad */
+.contenedor{
+    padding: 10px;
+}
+.contenedorprincipal {
+    display: grid;
+    place-content: center;
+}
 }
 
-@media screen and (min-width: 700px) and (max-width: 1279px) {
+@media screen and (min-width: 700px) and (max-width: 1199px) {
 /* Header */
 header {
     flex-direction: column;

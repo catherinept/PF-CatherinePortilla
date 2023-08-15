@@ -6,12 +6,6 @@
   color: #272727;
   font-size: 18px; }
 
-.textoseguridadind, .textomateriales {
-  font-size: 18px;
-  margin: 25px;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center; }
-
 * {
   margin: 0;
   padding: 0;
@@ -87,7 +81,8 @@ main h1 {
   color: white;
   border-radius: 3px;
   cursor: pointer;
-  transition: all 300ms ease; }
+  transition: all 300ms ease;
+  transform: scale(1, 1); }
   .container-form .btn-enviar:hover {
     background: #ff8b6e; }
 
@@ -149,6 +144,9 @@ header {
 .seccion-textoppal {
   background-color: #020202f5;
   height: 250px; }
+  .seccion-textoppal .titulo-principal {
+    color: white;
+    margin-top: 50px; }
 
 .contenedorinicio {
   display: flex;
@@ -165,6 +163,20 @@ header {
     font-size: 20px; }
 
 /* Materiales de Construcción & Seguridad Ind.*/
+.textoseguridadind {
+  font-size: 18px;
+  margin: 25px;
+  font-family: "Arial, Helvetica, sans-serif";
+  font-size: 18px;
+  text-align: center; }
+
+.textomateriales {
+  font-size: 18px;
+  margin: 25px;
+  font-family: "Arial, Helvetica, sans-serif";
+  font-size: 18px;
+  text-align: center; }
+
 .contenedorprincipal {
   padding-top: 30px;
   padding-bottom: 100px; }
@@ -192,11 +204,20 @@ header {
   padding: 20px; }
 
 /* MEDIA QUERIES */
-@media (min-width: 1280px) {
+@media (min-width: 1200px) {
   .navbar-toggler {
-    margin-right: 30vw; } }
+    margin-right: 30vw; }
+  /* Inicio */
+  .seccion-textoppal h3 {
+    margin-top: 45px; }
+  /* Materiales & Seguridad */
+  .contenedor {
+    padding: 10px; }
+  .contenedorprincipal {
+    display: grid;
+    place-content: center; } }
 
-@media screen and (min-width: 700px) and (max-width: 1279px) {
+@media screen and (min-width: 700px) and (max-width: 1199px) {
   /* Header */
   header {
     flex-direction: column; }
