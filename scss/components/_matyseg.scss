@@ -1,13 +1,11 @@
 /* Materiales de Construcción & Seguridad Ind.*/
 .textoseguridadind {
-    font-size: 18px;
     margin: 25px;
     @include font-style("Arial, Helvetica, sans-serif", 18px);
     @include center-text;
 }
 
 .textomateriales {
-    font-size: 18px;
     margin: 25px;
     @include font-style("Arial, Helvetica, sans-serif", 18px);
     @include center-text;
