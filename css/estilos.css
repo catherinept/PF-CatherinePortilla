@@ -164,14 +164,12 @@ header {
 
 /* Materiales de Construcción & Seguridad Ind.*/
 .textoseguridadind {
-  font-size: 18px;
   margin: 25px;
   font-family: "Arial, Helvetica, sans-serif";
   font-size: 18px;
   text-align: center; }
 
 .textomateriales {
-  font-size: 18px;
   margin: 25px;
   font-family: "Arial, Helvetica, sans-serif";
   font-size: 18px;
@@ -301,7 +299,7 @@ header {
   /* Inicio */
   .seccion-textoppal {
     height: 200px; }
-  .seccion-textoppal p {
+  .seccion-textoppal h1 {
     font-size: 17px; }
   .seccion-textoppal h3 {
     font-size: 15px;
@@ -365,7 +363,7 @@ header {
   /* Inicio */
   .seccion-textoppal {
     height: 180px; }
-  .seccion-textoppal p {
+  .seccion-textoppal h1 {
     font-size: 13px; }
   .seccion-textoppal h3 {
     font-size: 11px;
